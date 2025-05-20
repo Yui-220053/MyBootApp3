@@ -6,14 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Hello world!
  */
  @Controller
-public class HelloController {
+    public class HelloController {
         @RequestMapping("/")
     public String index(Model model) {
     //return "this is Spring Boot sample.";
     return "index";
      }
-    @RequestMapping("/miyagi")
-     public String miyagi() {
-     return "Miyagi desu!";
-     }
-}
+    }
